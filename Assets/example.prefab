@@ -1,0 +1,99 @@
+{
+  "RootObject": {
+    "__guid": "dcb62ac5-710c-4447-9511-77c6408d7b40",
+    "__version": 1,
+    "Flags": 0,
+    "Name": "example",
+    "Position": "0,0,0",
+    "Rotation": "0,0,0,1",
+    "Scale": "1,1,1",
+    "Tags": "",
+    "Enabled": true,
+    "NetworkMode": 2,
+    "NetworkInterpolation": true,
+    "NetworkOrphaned": 0,
+    "OwnerTransfer": 1,
+    "Components": [
+      {
+        "__type": "ExampleComponent",
+        "__guid": "a1c90483-b78e-420d-9ee0-7c6d9772f73d",
+        "__enabled": true,
+        "ExampleProp": false,
+        "OnComponentDestroy": null,
+        "OnComponentDisabled": null,
+        "OnComponentEnabled": null,
+        "OnComponentFixedUpdate": null,
+        "OnComponentStart": null,
+        "OnComponentUpdate": null
+      }
+    ],
+    "Children": [
+      {
+        "__guid": "6e67fb0c-7ded-4952-9a13-32220952d617",
+        "__version": 1,
+        "Flags": 0,
+        "Name": "v_usp",
+        "Position": "-0.003659474,0.005318814,0.03679655",
+        "Rotation": "0,0,0,1",
+        "Scale": "1,1,1",
+        "Tags": "",
+        "Enabled": true,
+        "NetworkMode": 2,
+        "NetworkInterpolation": true,
+        "NetworkOrphaned": 0,
+        "OwnerTransfer": 1,
+        "Components": [
+          {
+            "__type": "Sandbox.Prop",
+            "__guid": "20e02051-e118-46a5-995c-8441d162012c",
+            "__enabled": true,
+            "BodyGroups": 147,
+            "Health": 0,
+            "IsStatic": false,
+            "MaterialGroup": null,
+            "Model": "models/weapons/sbox_pistol_usp/v_usp.vmdl",
+            "OnComponentDestroy": null,
+            "OnComponentDisabled": null,
+            "OnComponentEnabled": null,
+            "OnComponentFixedUpdate": null,
+            "OnComponentStart": null,
+            "OnComponentUpdate": null,
+            "OnPropBreak": null,
+            "OnPropTakeDamage": null,
+            "StartAsleep": false,
+            "Tint": "1,1,1,1"
+          }
+        ],
+        "Children": []
+      }
+    ],
+    "__properties": {
+      "NetworkInterpolation": true,
+      "TimeScale": 1,
+      "WantsSystemScene": true,
+      "Metadata": {},
+      "NavMesh": {
+        "Enabled": false,
+        "IncludeStaticBodies": true,
+        "IncludeKeyframedBodies": true,
+        "EditorAutoUpdate": true,
+        "AgentHeight": 64,
+        "AgentRadius": 16,
+        "AgentStepSize": 18,
+        "AgentMaxSlope": 40,
+        "ExcludedBodies": "",
+        "IncludedBodies": ""
+      }
+    },
+    "__variables": []
+  },
+  "ResourceVersion": 2,
+  "ShowInMenu": false,
+  "MenuPath": null,
+  "MenuIcon": null,
+  "DontBreakAsTemplate": false,
+  "__references": [
+    "facepunch.v_usp#125826"
+  ],
+  "__version": 2
+}
